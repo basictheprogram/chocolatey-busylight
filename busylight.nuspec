@@ -5,7 +5,7 @@
     <version>1.5.7</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-busylight</packageSourceUrl>
     <owners>basictheprogram</owners>
-    <title>BusLight Client for Windows</title>
+    <title>BusyLight Client for Windows</title>
     <authors>Plenom A/S</authors>
     <projectUrl>hhttps://busylight.com</projectUrl>
     <iconUrl>https://basictheprogram.github.io/chocolatey-busylight/icons/busylight.png</iconUrl>
