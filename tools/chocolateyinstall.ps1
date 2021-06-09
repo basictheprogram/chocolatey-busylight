@@ -34,7 +34,7 @@ $InstallArgs = @{
     File           = Join-Path $WorkSpace $msiPackageNAme
     fileType       = 'msi'
     silentArgs     = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
-    validExitCodes = @(0, 3010, 1641)
+    validExitCodes = @(0, 3010, 1641, 1603)
     softwareName   = '*Busylight*Teams*'
 }
 

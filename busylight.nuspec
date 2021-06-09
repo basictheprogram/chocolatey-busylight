@@ -5,12 +5,12 @@
     <version>1.5.7</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-busylight</packageSourceUrl>
     <owners>basictheprogram</owners>
-    <title>BusyLight Client for Windows</title>
+    <title>BusyLight Client for Microsoft Teams Windows</title>
     <authors>Plenom A/S</authors>
     <projectUrl>hhttps://busylight.com</projectUrl>
     <iconUrl>https://basictheprogram.github.io/chocolatey-busylight/icons/busylight.png</iconUrl>
     <copyright>© 2017 Plenom A/S</copyright>
-    <licenseUrl>ttps://www.plenom.com/wp-content/uploads/2020/06/Product-License-Agreement-Plenom.pdf</licenseUrl>
+    <licenseUrl>https://www.plenom.com/wp-content/uploads/2020/06/Product-License-Agreement-Plenom.pdf</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <docsUrl>https://www.plenom.com/downloads/download-documents/</docsUrl>
     <tags>BusyLight productivity office intelligence</tags>
