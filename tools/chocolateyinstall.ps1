@@ -1,10 +1,12 @@
 ﻿$ErrorActionPreference = 'Stop';
 
+# https://www.plenom.com/download/70652/
+
 $packageName = $env:ChocolateyPackageName
-$basePackageName = 'Busylight_Office_MSTeams_Presence_Setup-1.5.7'
+$basePackageName = 'Release-2.1.1'
 $fullPackage = $basePackageName + '.zip'
 $url64 = 'https://www.plenom.com/download/70652/' + $fullPackage
-$checksum64 = '4d95c3429fec4131ec1fa7fabe3d15d2a6bcb4ebd76a9313e5c9d1d8d96d6d06'
+$checksum64 = '0166e741feed9880a6fd4216d669bf1d55c461eda1fbce5f8d6cfa2658ce74e2'
 
 $WorkSpace = Join-Path $env:TEMP "$packageName.$env:chocolateyPackageVersion"
 
@@ -27,7 +29,9 @@ $UnzipArgs = @{
 
 Get-ChocolateyUnzip @UnzipArgs
 
-$msiPackageNAme = Join-Path $basePackageName "Busylight4MS_Teams_Presence_Setup64.msi"
+# The zip contains a directory name with a space
+#
+$msiPackageNAme = Join-Path $basePackageName.Replace("-", " ") "Busylight4MS_Teams_Setup64.msi"
 
 $InstallArgs = @{
     PackageName    = $packageName
